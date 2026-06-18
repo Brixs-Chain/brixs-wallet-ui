@@ -22,6 +22,7 @@ function App() {
           chainName: 'Brixs Chain Testnet',
           nativeCurrency: { name: 'BRIXS', symbol: 'BRIXS', decimals: 18 },
           rpcUrls: [RPC_URL],
+          blockExplorerUrls: [],
         }],
       });
       alert('✅ Brixs Chain Testnet added to MetaMask!');
