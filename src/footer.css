@@ -1,0 +1,50 @@
+/* Footer Styling */
+.bottom-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 24px clamp(20px, 4vw, 72px);
+  border-top: 1px solid var(--l);
+  background: var(--p);
+  margin-top: auto;
+}
+
+.footer-links {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.footer-btn {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #555c67;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer-btn:hover {
+  color: var(--b);
+}
+
+.social-links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.social-links a {
+  color: #555c67;
+  transition: color 0.2s, transform 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-links a:hover {
+  color: var(--b);
+  transform: translateY(-2px);
+}
