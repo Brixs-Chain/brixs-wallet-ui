@@ -2,13 +2,13 @@ import { initializeApp } from "firebase/app";
 import { getAuth, GithubAuthProvider } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC4CY-H0EEsPR6fjnlVdstImM5GZlAYe70",
-  authDomain: "brixs-faucet.firebaseapp.com",
-  projectId: "brixs-faucet",
-  storageBucket: "brixs-faucet.firebasestorage.app",
-  messagingSenderId: "144067974865",
-  appId: "1:144067974865:web:a25a98728fb46d632257f0",
-  measurementId: "G-57RM3BWZ40"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID
 };
 
 const app = initializeApp(firebaseConfig);
