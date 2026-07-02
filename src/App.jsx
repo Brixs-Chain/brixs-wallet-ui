@@ -193,8 +193,8 @@ function App() {
 
       <footer className="bottom-footer">
         <div className="footer-links">
-          <a href="https://www.brixs.space/company/legal" className="footer-btn" target="_blank" rel="noreferrer">Privacy Policy</a>
-          <a href="https://www.brixs.space/company/legal" className="footer-btn" target="_blank" rel="noreferrer">Terms & Conditions</a>
+          <a href="https://www.brixs.space/legal" className="footer-btn" target="_blank" rel="noreferrer">Privacy Policy</a>
+          <a href="https://www.brixs.space/legal" className="footer-btn" target="_blank" rel="noreferrer">Terms & Conditions</a>
           <a href="https://www.brixs.space/company/contact" className="footer-btn" target="_blank" rel="noreferrer">Contact</a>
           <a href="https://www.brixs.space/company/contact" className="footer-btn" target="_blank" rel="noreferrer">Support</a>
         </div>
