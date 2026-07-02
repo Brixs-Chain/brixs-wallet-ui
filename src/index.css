@@ -342,3 +342,33 @@ body {
   font-family: monospace;
   opacity: 0.8;
 }
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .top-header {
+    padding: 0 16px;
+  }
+  .brand {
+    height: 24px;
+  }
+  .support-link {
+    display: none; /* Hide Developer Docs on small screens */
+  }
+  .build-btn {
+    padding: 10px 12px;
+    font-size: 11px;
+  }
+  .main-content {
+    padding: 40px 16px;
+  }
+  .faucet-card-inner {
+    padding: 24px 20px;
+  }
+  .info-row {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .metamask-btn {
+    font-size: 11px;
+  }
+}
